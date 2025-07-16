@@ -34,9 +34,12 @@ Our experiments testing the generated images on Google Lens revealed critical in
 
 The FARE model and the foundational concepts of robustifying Vision-Language Models are from the following work. This notebook serves as a practical exploration of the attack surfaces that persist even in such robust models.
 
+My thanks to the authors of FARE:
+```bibtex
 @article{schlarmann2024robustclip,
     title={Robust CLIP: Unsupervised Adversarial Fine-Tuning of Vision Embeddings for Robust Large Vision-Language Models}, 
     author={Christian Schlarmann and Naman Deep Singh and Francesco Croce and Matthias Hein},
     year={2024},
     journal={ICML}
 }
+```
